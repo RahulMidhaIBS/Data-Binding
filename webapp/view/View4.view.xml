@@ -1,0 +1,19 @@
+<mvc:View controllerName="oData_Assignment.oData_Assignment.controller.View4" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id = "App">
+			<pages>
+				<Page id="detail1" title="Detail 1" class = "sapUiStdPage">
+					<content>
+						<Panel headerText = "Introduction">
+							<Label text = "First Name"></Label>
+							<Input id = "fn" value = "{/firstName}"></Input>
+							<Label text = "Last Name"></Label>
+							<Input id = "ln" value = "{/lastName}"></Input>
+							<Button text = "Save" press = "onPress"></Button>
+						</Panel>
+					</content>
+				</Page>
+			</pages>	
+		</App>
+	</Shell>
+</mvc:View>

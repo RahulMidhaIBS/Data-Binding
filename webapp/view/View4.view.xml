@@ -6,9 +6,9 @@
 					<content>
 						<Panel headerText = "Introduction">
 							<Label text = "First Name"></Label>
-							<Input id = "fn" value = "{/firstName}"></Input>
+							<Input id = "fn" value = "{EmployeeDetails>0>firstName}"></Input>
 							<Label text = "Last Name"></Label>
-							<Input id = "ln" value = "{/lastName}"></Input>
+							<Input id = "ln" value = "{EmployeeDetails>0>lastName}"></Input>
 							<Button text = "Save" press = "onPress"></Button>
 						</Panel>
 					</content>
